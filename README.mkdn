@@ -1,37 +1,47 @@
-LineageOS
+SpiceOS (With ♡)
 ===========
 
-Getting started
+Getting Started
 ---------------
 
-To get started with Android/LineageOS, you'll need to get
-familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+To get started with Android, you'll need to get
+familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
-```
-repo init -u git://github.com/LineageOS/android.git -b lineage-18.0
-```
-Then to sync up:
-```
-repo sync
-```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
+1.Set up your environment
 
+    sudo apt-get install git-core
+    git clone https://github.com/akhilnarang/scripts
+    cd scripts
+    bash setup/android_build_env.sh
 
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
+2.Then run these commands to get git all working:
 
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
+     git config --global user.email "you@example.com"
+     git config --global user.name "Your Name"
 
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
+3.Then Create a folder for SpiceOS and open it
 
+    mkdir spiceos
+    cd spiceos
 
-Buildbot
---------
+4.To initialize your local repository using the SpiceOS trees, use a command like this:
 
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
+    repo init -u https://github.com/SpiceOS/android.git -b 11 --depth=1
 
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/).
+5.Then to sync up:
 
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+    repo sync -c -f --force-sync
+
+OR, for those with limited bandwidth/storage:
+
+    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+
+6.To start the build once everything is ready , Run to prepare our devices list
+
+    . build/envsetup.sh
+
+7.Now build
+
+    breakfast codename
+    mka bacon
+
