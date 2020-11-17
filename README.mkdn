@@ -45,3 +45,11 @@ OR, for those with limited bandwidth/storage:
     breakfast codename
     mka bacon
 
+===========
+
+Additional Features (Run in root of Rom folder) - Needed in each sync
+
+## Face Recognition
+
+    bash external/utils/regenerate/faceunlock.sh
+
