@@ -7,7 +7,7 @@
   <project path="external/airbnb-lottie" name="SpiceOS/android_external_airbnb-lottie" remote="github" revision="11" />
 
   <project path="lineage-sdk" name="SpiceOS/android_lineage-sdk" remote="github" revision="11" />
-  
+
   <project path="packages/apps/FMRadio" name="SpiceOS/android_packages_apps_FMRadio" remote="github" revision="11" />
   <project path="packages/apps/LineageParts" name="SpiceOS/android_packages_apps_LineageParts" remote="github" revision="11" />
   <project path="packages/apps/SetupWizard" name="SpiceOS/android_packages_apps_SetupWizard" remote="github" revision="11" />
@@ -15,9 +15,6 @@
 
   <project path="vendor/lineage" name="SpiceOS/android_vendor_spiceos" remote="github" revision="11" />
 
-  <project path="hardware/qcom-caf/sdm845/audio" name="crdroidandroid/android_hardware_qcom_audio" remote="github" revision="11.0-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="crdroidandroid/android_hardware_qcom_display" remote="github" revision="11.0-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="crdroidandroid/android_hardware_qcom_media" remote="github" revision="11.0-caf-sdm845" />
   <project path="hardware/qcom-caf/sm8150/audio" name="crdroidandroid/android_hardware_qcom_audio" remote="github" revision="11.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" remote="github" revision="11.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" remote="github" revision="11.0-caf-sm8150" />
