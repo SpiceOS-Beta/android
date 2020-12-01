@@ -11,6 +11,7 @@
   <project path="packages/apps/LineageParts" name="SpiceOS/android_packages_apps_LineageParts" remote="github" revision="11" />
   <project path="packages/apps/SetupWizard" name="SpiceOS/android_packages_apps_SetupWizard" remote="github" revision="11" />
   <project path="packages/apps/Launcher3" name="SpiceOS/android_packages_apps_ParanoidLauncher" remote="github" revision="11" />
+  <project path="packages/apps/ThemePicker" name="SpiceOS/android_packages_apps_ThemePicker" remote="github" revision="11" />
 
   <project path="vendor/lineage" name="SpiceOS/android_vendor_spiceos" remote="github" revision="11" />
   <project path="vendor/overlays" name="SpiceOS/android_vendor_overlays" remote="github" revision="11"/>
