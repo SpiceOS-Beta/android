@@ -12,7 +12,8 @@
   <project path="packages/apps/SetupWizard" name="SpiceOS/android_packages_apps_SetupWizard" remote="github" revision="11" />
   <project path="packages/apps/Launcher3" name="SpiceOS/android_packages_apps_ParanoidLauncher" remote="github" revision="11" />
   <project path="packages/apps/ThemePicker" name="SpiceOS/android_packages_apps_ThemePicker" remote="github" revision="11" />
-
+  <project path="packages/apps/Updater" name="SpiceOS/android_packages_apps_Updater" remote="github" revision="11" />
+  <project path="packages/apps/Updater_Db" name="SpiceOS/android_packages_apps_Updater_Db" remote="github" revision="11" />
   <project path="hardware/qcom-caf/msm8998/audio" name="SpiceOS/android_hardware_qcom_audio" remote="github" revision="11-caf-msm8998" />
 
   <project path="vendor/lineage" name="SpiceOS/android_vendor_spiceos" remote="github" revision="11" />
