@@ -2,7 +2,6 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" />
@@ -34,7 +33,6 @@
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
   <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
-  <!--<project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />-->
   <!--<project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" />-->
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
