@@ -18,4 +18,7 @@
   <project path="vendor/lineage" name="SpiceOS/android_vendor_spiceos" remote="github" revision="11" />
   <project path="vendor/overlays" name="SpiceOS/android_vendor_overlays" remote="github" revision="11"/>
 
+  <!--Clang 12.0.4-->
+  <project path="prebuilts/clang/host/linux-x86/clang-7211189" name="SpiceOS/android_prebuilts_clang_host_linux-x86_clang-7211189" remote="github" revision="11" clone-depth="1" />
+
 </manifest>
