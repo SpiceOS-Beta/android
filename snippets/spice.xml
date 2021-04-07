@@ -14,9 +14,13 @@
   <project path="packages/apps/Updater" name="SpiceOS/android_packages_apps_Updater" remote="github" revision="11" />
   <project path="packages/apps/Updater_Db" name="SpiceOS/android_packages_apps_Updater_Db" remote="github" revision="11" />
   <project path="packages/apps/OmniStyle" name="SpiceOS/android_packages_apps_OmniStyle" remote="github" revision="11" />
+  <project path="packages/apps/ThemePicker" name="SpiceOS/android_packages_apps_ThemePicker" remote="github" revision="11" />
 
   <project path="vendor/lineage" name="SpiceOS/android_vendor_spiceos" remote="github" revision="11" />
   <project path="vendor/overlays" name="SpiceOS/android_vendor_overlays" remote="github" revision="11"/>
+
+  <!-- Gapps -->
+  <project path="vendor/gapps" name="SpiceOS/android_vendor_gapps" remote="gitlab" revision="11" />
 
   <!--Clang 12.0.4-->
   <project path="prebuilts/clang/host/linux-x86/clang-7211189" name="SpiceOS/android_prebuilts_clang_host_linux-x86_clang-7211189" remote="github" revision="11" clone-depth="1" />
