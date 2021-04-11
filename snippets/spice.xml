@@ -3,8 +3,9 @@
 
   <!-- SpiceOS additions -->
   <project path="android" name="SpiceOS/android" remote="github" revision="11" />
-  <!-- <project path="external/utils" name="MalluOS/android_external_utils" remote="gitlab" revision="11" /> -->
   <project path="external/airbnb-lottie" name="SpiceOS/android_external_airbnb-lottie" remote="github" revision="11" />
+  <project path="external/faceunlock" name="SpiceOS/android_external_faceunlock" remote="gitlab" revision="11" />
+  <project path="packages/apps/FaceUnlockService" name="SpiceOS/android_packages_apps_FaceUnlockService" remote="gitlab" revision="11" />
 
   <project path="lineage-sdk" name="SpiceOS/android_lineage-sdk" remote="github" revision="11" />
   <project path="device/lineage/sepolicy" name="SpiceOS/android_device_lineage_sepolicy" remote="github" revision="11"/>
