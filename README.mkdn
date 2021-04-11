@@ -1,5 +1,22 @@
-SpiceOS (With ♡)
+<div align="center">
+<hr>
+<img src="https://github.com/SpiceOS/xda_template/blob/11/Banner/header.png?raw=true">
+<br>
+<br>
+<strong><i>Just a spiced up LineageOS ;)</i></strong>
+<br>
+<br>
+<hr>
+</div>
+
+Credits
 ===========
+ * [**AOSP**](https://android.googlesource.com)
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**CrDroid**](https://github.com/crdroidandroid)
+ * [**PixysOS**](https://github.com/PixysOS)
+ * [**Superior OS**](https://github.com/SuperiorOS)
+
 
 Getting Started
 ---------------
@@ -44,12 +61,3 @@ OR, for those with limited bandwidth/storage:
 
     breakfast codename
     mka bacon
-
-===========
-
-Additional Features (Run in root of Rom folder) - Needed in each sync
-
-## Face Recognition
-
-    bash external/utils/regenerate/faceunlock.sh
-
