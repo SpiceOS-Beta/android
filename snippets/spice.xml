@@ -17,6 +17,8 @@
   <project path="packages/apps/OmniStyle" name="SpiceOS/android_packages_apps_OmniStyle" remote="github" revision="11" />
   <project path="packages/apps/ThemePicker" name="SpiceOS/android_packages_apps_ThemePicker" remote="github" revision="11" />
 
+  <project path="system/security" name="SpiceOS/android_system_security" remote="github" revision="11" />
+
   <project path="vendor/lineage" name="SpiceOS/android_vendor_spiceos" remote="github" revision="11" />
   <project path="vendor/overlays" name="SpiceOS/android_vendor_overlays" remote="github" revision="11"/>
 
