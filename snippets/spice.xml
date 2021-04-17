@@ -16,6 +16,7 @@
   <project path="packages/apps/Updater_Db" name="SpiceOS/android_packages_apps_Updater_Db" remote="github" revision="11" />
   <project path="packages/apps/OmniStyle" name="SpiceOS/android_packages_apps_OmniStyle" remote="github" revision="11" />
   <project path="packages/apps/ThemePicker" name="SpiceOS/android_packages_apps_ThemePicker" remote="github" revision="11" />
+  <project path="packages/apps/Gallery2" name="SpiceOS/android_packages_apps_Gallery2" remote="github" revision="11" />
 
   <project path="system/security" name="SpiceOS/android_system_security" remote="github" revision="11" />
 
