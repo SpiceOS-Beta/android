@@ -19,6 +19,7 @@
   <project path="packages/apps/ThemePicker" name="SpiceOS/android_packages_apps_ThemePicker" remote="github" revision="11" />
   <project path="packages/apps/Gallery2" name="SpiceOS/android_packages_apps_Gallery2" remote="github" revision="11" />
   <project path="packages/apps/Browser" name="SpiceOS/android_packages_apps_Browser" remote="github" clone-depth="1" revision="11" />
+  <project path="packages/apps/Phonograph" name="SpiceOS/android_packages_apps_Phonograph" remote="github" revision="11" />
 
   <project path="frameworks/native" name="SpiceOS/android_frameworks_native" remote="github" revision="11"/>
 
