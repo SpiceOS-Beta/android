@@ -31,10 +31,7 @@
   <!-- Gapps -->
   <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="rho" />
 
-  <!--Clang 12.0.5-->
-  <project path="prebuilts/clang/host/linux-x86/clang-7284624" name="SpiceOS/android_prebuilts_clang_host_linux-x86_clang-7284624" remote="github" revision="11" clone-depth="1" />
-
-  <!--Clang 12.0.6-->
-  <project path="prebuilts/clang/host/linux-x86/clang-7416131" name="SpiceOS/android_prebuilts_clang_host_linux-x86_clang-7416131" remote="github" revision="11" clone-depth="1" />
+  <!--Clang 12.0.7-->
+  <project path="prebuilts/clang/host/linux-x86/clang-7449660" name="SpiceOS/android_prebuilts_clang_host_linux-x86_clang-7449660" remote="github" revision="11" clone-depth="1" />
 
 </manifest>
