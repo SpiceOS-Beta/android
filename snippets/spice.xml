@@ -12,7 +12,7 @@
   <project path="device/lineage/sepolicy" name="SpiceOS/android_device_lineage_sepolicy" remote="github" revision="11"/>
   <project path="packages/apps/LineageParts" name="SpiceOS/android_packages_apps_LineageParts" remote="github" revision="11" />
   <project path="packages/apps/SetupWizard" name="SpiceOS/android_packages_apps_SetupWizard" remote="github" revision="11" />
-  <project path="packages/apps/Trebuchet" name="SpiceOS/android_packages_apps_Trebuchet" remote="github" revision="11" />
+  <project path="packages/apps/Launcher3" name="SpiceOS/android_packages_apps_Launcher3" remote="github" revision="11" />
   <project path="packages/apps/Updater" name="SpiceOS/android_packages_apps_Updater" remote="github" revision="11" />
   <project path="packages/apps/Updater_Db" name="SpiceOS/android_packages_apps_Updater_Db" remote="github" revision="11" />
   <project path="packages/apps/OmniStyle" name="SpiceOS/android_packages_apps_OmniStyle" remote="github" revision="11" />
