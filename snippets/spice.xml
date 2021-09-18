@@ -2,31 +2,31 @@
 <manifest>
 
   <!-- SpiceOS additions -->
-  <project path="android" name="SpiceOS/android" remote="github" revision="11" />
-  <project path="external/asus/stitchimage" name="SpiceOS/android_external_asus_stitchimage" remote="github" revision="11" />
-  <project path="external/airbnb-lottie" name="SpiceOS/android_external_airbnb-lottie" remote="github" revision="11" />
+  <project path="android" name="SpiceOS/android" remote="github" revision="rb" />
+  <project path="external/asus/stitchimage" name="SpiceOS/android_external_asus_stitchimage" remote="github" revision="rb" />
+  <project path="external/airbnb-lottie" name="SpiceOS/android_external_airbnb-lottie" remote="github" revision="rb" />
   <project path="external/faceunlock" name="SpiceOS/android_external_faceunlock" remote="gitlab" revision="11" />
   <project path="packages/apps/FaceUnlockService" name="SpiceOS/android_packages_apps_FaceUnlockService" remote="gitlab" revision="11" />
 
-  <project path="lineage-sdk" name="SpiceOS/android_lineage-sdk" remote="github" revision="11" />
-  <project path="device/lineage/sepolicy" name="SpiceOS/android_device_lineage_sepolicy" remote="github" revision="11"/>
-  <project path="packages/apps/LineageParts" name="SpiceOS/android_packages_apps_LineageParts" remote="github" revision="11" />
-  <project path="packages/apps/SetupWizard" name="SpiceOS/android_packages_apps_SetupWizard" remote="github" revision="11" />
-  <project path="packages/apps/Launcher3" name="SpiceOS/android_packages_apps_Launcher3" remote="github" revision="11" />
-  <project path="packages/apps/Updater" name="SpiceOS/android_packages_apps_Updater" remote="github" revision="11" />
-  <project path="packages/apps/Updater_Db" name="SpiceOS/android_packages_apps_Updater_Db" remote="github" revision="11" />
-  <project path="packages/apps/OmniStyle" name="SpiceOS/android_packages_apps_OmniStyle" remote="github" revision="11" />
-  <project path="packages/apps/ThemePicker" name="SpiceOS/android_packages_apps_ThemePicker" remote="github" revision="11" />
-  <project path="packages/apps/Gallery2" name="SpiceOS/android_packages_apps_Gallery2" remote="github" revision="11" />
-  <project path="packages/apps/Browser" name="SpiceOS/android_packages_apps_Browser" remote="github" clone-depth="1" revision="11" />
-  <project path="packages/apps/Phonograph" name="SpiceOS/android_packages_apps_Phonograph" remote="github" revision="11" />
+  <project path="lineage-sdk" name="SpiceOS/android_lineage-sdk" remote="github" revision="rb" />
+  <project path="device/lineage/sepolicy" name="SpiceOS/android_device_lineage_sepolicy" remote="github" revision="rb"/>
+  <project path="packages/apps/LineageParts" name="SpiceOS/android_packages_apps_LineageParts" remote="github" revision="rb" />
+  <project path="packages/apps/SetupWizard" name="SpiceOS/android_packages_apps_SetupWizard" remote="github" revision="rb" />
+  <project path="packages/apps/Launcher3" name="SpiceOS/android_packages_apps_Launcher3" remote="github" revision="rb" />
+  <project path="packages/apps/Updater" name="SpiceOS/android_packages_apps_Updater" remote="github" revision="rb" />
+  <project path="packages/apps/Updater_Db" name="SpiceOS/android_packages_apps_Updater_Db" remote="github" revision="rb" />
+  <project path="packages/apps/OmniStyle" name="SpiceOS/android_packages_apps_OmniStyle" remote="github" revision="rb" />
+  <project path="packages/apps/ThemePicker" name="SpiceOS/android_packages_apps_ThemePicker" remote="github" revision="rb" />
+  <project path="packages/apps/Gallery2" name="SpiceOS/android_packages_apps_Gallery2" remote="github" revision="rb" />
+  <project path="packages/apps/Browser" name="SpiceOS/android_packages_apps_Browser" remote="github" clone-depth="1" revision="rb" />
+  <project path="packages/apps/Phonograph" name="SpiceOS/android_packages_apps_Phonograph" remote="github" revision="rb" />
 
-  <project path="frameworks/native" name="SpiceOS/android_frameworks_native" remote="github" revision="11"/>
+  <project path="frameworks/native" name="SpiceOS/android_frameworks_native" remote="github" revision="rb"/>
 
-  <project path="system/security" name="SpiceOS/android_system_security" remote="github" revision="11" />
+  <project path="system/security" name="SpiceOS/android_system_security" remote="github" revision="rb" />
 
-  <project path="vendor/lineage" name="SpiceOS/android_vendor_spiceos" remote="github" revision="11" />
-  <project path="vendor/overlays" name="SpiceOS/android_vendor_overlays" remote="github" revision="11"/>
+  <project path="vendor/lineage" name="SpiceOS/android_vendor_spiceos" remote="github" revision="rb" />
+  <project path="vendor/overlays" name="SpiceOS/android_vendor_overlays" remote="github" revision="rb"/>
 
   <!-- Gapps -->
   <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="rho" />
